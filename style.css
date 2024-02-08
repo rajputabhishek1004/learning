@@ -1,0 +1,142 @@
+
+.full-page{
+    border: #1b0400 solid 4px;
+    margin: 5px 242px;
+    padding: 5px ;
+    
+}
+.header {
+    padding: 60px;
+    text-align: left;
+    background-color: rgb(222, 206, 206);
+    color: black;
+    font-size: 30px;
+  }
+  .navigation{
+	margin:0px 0px 30px;
+	padding:11px 5px;
+	border: black solid 1px;
+	background: rgb(170, 166, 166) ;
+}
+
+.navigation ul{
+	margin:0px;
+	padding:0px;
+}
+.navigation ul li{
+	margin:0px;
+	padding:0px 32px;
+	display:inline;
+	font-size:15px;
+	border-right:black dotted 2px;
+	position: relative;
+}
+
+.navigation ul li a{
+	color:#03314b;
+	text-decoration:none;
+}
+
+.navigation ul ul{
+	position: absolute;
+	background: rgb(170, 166, 166);
+	display: none; 
+	right: -10px;
+	top:40px;	
+	
+}
+.navigation ul ul li {
+	width: 90px;
+	border: none;
+	display: block;
+}
+.navigation ul li:hover > ul{
+	display: block;
+}
+
+#content .right_section{
+	width:747px;
+	float:right;
+	padding:0px 20px;
+}
+
+.upper_content{
+	padding:0 0 20px 0;
+}
+
+#content .right_section .bottom_content{
+	padding:15px 0 0px 0;
+    
+}
+
+#content .right_section .bottom_content .one{
+	width:295px;
+	float:left;
+	margin-bottom:20px;
+}
+
+#content .right_section .bottom_content .two{
+	width:295px;
+	float:right;
+	margin-bottom:20px;
+    
+}
+
+a.btn{
+	color:black;
+	background: rgb(222, 206, 206);
+	font-size:12px;
+	text-decoration:none;
+	padding:7px 15px 7px 15px;
+	font-weight:bold;
+	display:inline-block;
+	border:black solid 1px;
+}
+
+
+
+.left_side_boxes{
+	width:210px;
+	float:left;
+}
+
+.left_side_boxes h1{
+	font-size:18px;
+	padding:0 0 0 9px;
+	margin-bottom:15px;
+	color:#1b0400;
+}
+
+.left_side_boxes .box{
+	padding:15px 5px 15px 10px;
+	margin-bottom:20px;
+	border:black solid 2px;
+}
+
+.left_side_boxes .box .box-content{
+	padding:5px 11px 5px;
+}
+
+.left_side_boxes .box .box-content ul{
+	margin:0px;
+	padding:0px 0 0 12px;
+}
+
+.left_side_boxes .box .box-content ul li{
+	margin:0px 0px 8px;
+	padding:0px 0px 0px 20px;
+	font-size:13px;
+	list-style-type: square;
+}
+
+.footer{
+	clear: both;
+	margin-top:18px;
+	padding:0px 0 30px 0;
+	height:22px;
+	text-align:center;
+	font-size:20px;
+	line-height:16px;
+	background-color:rgb(222, 206, 206);
+	border:black solid 1px;
+}
